@@ -1,0 +1,87 @@
+:root {
+  /* Colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --grey: #bababa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+header{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	min-width: 320px;
+	background: linear-gradient(
+    208.83deg,
+    var(--black) 16.69%,
+    var(--bitcoin-orange) 100%
+  );
+}
+header img{
+	width: 151px;
+	height: 24px;
+	align-self: center;
+	margin-top: 60px;
+}
+.header__description-container{
+	width: 90%;
+  	min-width: 288px;
+  	max-width: 900px;
+  	height: 218px;
+  	margin-top: 50px;
+  	align-self: center;
+}
+.header__description-container h1 {
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+  	color: var(--just-white);
+}
+.header__description-container p{
+	margin-top: 25px;
+	font-size: 1.4rem;
+	color: var(--soft-orange);
+	font-weight: 500;
+}
+.header__link{
+	position: absolute;
+	text-decoration: none;
+	top: 327px;
+	width: 229px;
+  	height: 48px;
+  	padding: 15px;
+	left: calc(50% - 114.5px);
+	font-size: 1.5rem;
+	color: var(--black);
+	font-weight: bold;
+	border-radius: 5px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	background: var(--off-white);
+}
+
+.header__description-container .header__link span{
+	background-image: url(../assets/icons/down-arrow.svg);
+	display: inline-block;
+	width: 13px;
+	height: 8px;
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	margin-left: 10px;
+}
