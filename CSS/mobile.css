@@ -76,7 +76,7 @@ header img{
 }
 
 .header__description-container .header__link span{
-	background-image: url(../assets/icons/down-arrow.svg);
+	background-image: url("../assets/icons/down-arrow.svg");
 	display: inline-block;
 	width: 13px;
 	height: 8px;
@@ -84,4 +84,116 @@ header img{
 	background-position: center;
   	background-repeat: no-repeat;
   	margin-left: 10px;
+}
+.main-exchance-container{
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 50px;	
+}
+.main-exchance-container .background-img{
+	background-image: url("../assets/img/Bitcoin.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.main-exchance-container .description{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+.main-exchance-container .description h2{
+	margin-bottom: 27px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 2.6rem;
+	color: var(--black);
+}
+.main-exchance-container .description p{
+	font-size: 1.4rem;
+	margin-bottom: 30px;
+	font-weight: 500;
+	color: #757575;
+}
+.main-coins-table-container, .main-comisions-table-container{
+	font-family: 'Inter', sans-serif;
+	width: 70%;
+	height: 100%;
+	background-color: var(--off-white);
+	margin: 0 auto;
+} 
+.main-coins-table-container .coins-table__title{
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 2rem;
+	margin: 30px 0 25px;
+	color: var(--bitcoin-orange);
+}
+.main-tables-container td{
+  width: 50%;
+  font-weight: 500;
+  line-height: 1.9rem;
+  font-size: 1.6rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-tables-container table{
+	width: 100%;
+	height: 100%;
+}
+.main-coins-table-container .table-column-exchange,
+.main-comisions-table-container .table-column-comisions{
+	color: #757575;
+	font-size: 1.4rem;
+}
+.main-coins-table-container .down{
+	background-image: url(../assets/icons/trending-down.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+}
+.main-coins-table-container .up{
+	background-image: url(../assets/icons/trending-up.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+}
+.main-coins-table-container .coins-table-update-date{
+	background-color: var(--soft-orange);
+	color: #757575;
+	font-size: 1.2rem;
+	width: 200px;
+	height: 28px;
+	padding: 8px;
+	border-radius: 8px;
+	margin: 15px auto;
+}
+.main-comisions-table-container .comisions-table__title{
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 2rem;
+	margin: 30px 0 25px;
+	color: var(--secondary-blue);	
+}
+.main-comisions-table-container .comisions-table-update-date{
+	background-color: var(--soft-blue);
+	color: #757575;
+	font-size: 1.2rem;
+	width: 200px;
+	height: 28px;
+	padding: 8px;
+	border-radius: 8px;
+	margin: 15px auto;
 }
